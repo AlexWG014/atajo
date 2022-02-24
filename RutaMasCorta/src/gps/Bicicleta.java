@@ -62,7 +62,7 @@ public class Bicicleta {
         int[] camino1 = {12,34,21,46,25};
         int[] camino2 = {24,1,5,64,10,15,21};
         int[] camino3 = {1,5,6,7,8,10,20,46,104};
-        System.out.println("El camino mas corto para llegar a tu destino es:"+Bicicleta.rutaCorta(camino1,camino2,camino3)+".");
+        System.out.println("El camino mas corto para llegar a tu destino es el"+Bicicleta.rutaCorta(camino1,camino2,camino3)+".");
     }
 }
 
